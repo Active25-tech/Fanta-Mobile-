@@ -1,0 +1,21 @@
+{
+  "name": "fanta-anaar-slice-game-mobile-adaptive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Android-ready Capacitor wrapper for the mobile-adaptive Fanta Anaar Slice Game",
+  "scripts": {
+    "start": "npx serve www",
+    "android:add": "npx cap add android",
+    "copy": "npx cap copy",
+    "sync": "npx cap sync android",
+    "open:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,8 @@
+Plain Android WebView route
+
+1. Create a new Android Studio project with Empty Views Activity
+2. Replace MainActivity.java with MainActivity_example.java
+3. Put www/index.html into:
+   app/src/main/assets/index.html
+4. Update AndroidManifest.xml using AndroidManifest_example.xml settings
+5. Build APK in Android Studio
